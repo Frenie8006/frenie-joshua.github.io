@@ -84,3 +84,9 @@ footer {
   margin: 2rem 0.5rem;
   line-height: 1.5;
 }
+
+.heading--1 {
+  text-align: center;
+  margin: 24px 0;
+  font-size: 30px;
+}
