@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Frenie Batucan</title>
+  </head>
+  <body>
+    <button id="btn" class="btn-fake-dark-mode">🌙</button>
+    <div class="container">
+      <header>
+        <h1>About Me</h1>
+        <a href="index.html">
+          <button>Back</button>
+        </a>
+      </header>
+      <p>
+        Hi! My name is  <strong>Frenie</strong>, and I am currently studying at <mark>CEC University,
+          Kilat, Cebu City</mark>. I live in Kalunasan, Oprra Unit 3 Chapel, Cebu City,
+        or sometimes at WOW.
+      </p>
+
+      <h2>📍 My Location</h2>
+      <div class="map-container">
+        <!-- Embedded Google Map -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.4045716729544!2d123.87722787444333!3d10.307582389980022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfac53679f3%3A0xb47756ea01177f51!2sKalunasan%2C%20Cebu%20City!5e0!3m2!1sen!2sph!4v1700000000000"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+
+      <h2>🏫 Education</h2>
+      <p>
+        I am a student at CEC University in Kilat, Cebu City, where I am
+        pursuing my studies.
+      </p>
+
+      <h2>🎥 My Videos</h2>
+      <div class="video-container">
+        <!-- Replace the src URLs with your actual video links -->
+        <iframe
+          src="https://www.youtube.com/embed/5qap5aO4i9A"
+          title="lofi hip hop radio - beats to relax/study to"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          src="https://www.youtube.com/embed/mO_dS3rXDIs"
+          title="CS50's Introduction to Computer Science"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      &copy; This project is for school purposes by
+      <strong>CEC BSIT Section 9 </strong>students ✌️
+    </footer>
+  </section>
+
+    <script>
+      // Since we knew a little bit of DOM manipulation in JS we can add a fake dark mode hehehe 😜
+      document.getElementById("btn").addEventListener("click", () => {
+        document.documentElement.classList.toggle("fake-dark-mode");
+      });
+    </script>
+  </body>
+</html>
